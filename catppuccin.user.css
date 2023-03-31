@@ -153,6 +153,48 @@ url-prefix("https://v/") {
     if (lighttheme=="Macchiato") { colourscheme(Macchiato) }
     if (lighttheme=="Mocha")     { colourscheme(Mocha) }
   }
+  
+   div#search_header {padding:20px;}
+.index .title {
+
+    background: url(https://i.postimg.cc/SN7558Bh/vivawaves.png) center center no-repeat !important;
+
+    background-size: contain !important;
+
+    margin: 0;
+
+    padding: 0;
+
+    max-height: 450px;
+
+    height: 310px;
+
+	
+} 
+
+a#search_logo {
+
+    grid-area: logo;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 100% !important;
+
+    display: block;
+
+    top: 0;
+
+    position: absolute;
+
+    background: url(https://i.postimg.cc/SN7558Bh/vivawaves.png) center center no-repeat;
+
+    background-size: contain;
+
+    height: 59px;
+
+}
 
   @media (prefers-color-scheme: dark) {
     .theme-auto {
