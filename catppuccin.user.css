@@ -154,7 +154,7 @@ url-prefix("https://v/") {
     if (lighttheme=="Mocha")     { colourscheme(Mocha) }
   }
   
-   div#search_header {padding:20px;}
+   div#search_header {}
 .index .title {
 
     background: url(https://i.postimg.cc/SN7558Bh/vivawaves.png) center center no-repeat !important;
