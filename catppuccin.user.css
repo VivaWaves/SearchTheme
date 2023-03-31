@@ -171,10 +171,12 @@ url-prefix("https://v/") {
 
 	
 } 
+  
+  a#search_logo svg {display:none;}
 
 a#search_logo {
 
-    grid-area: logo;
+    grid-area: loogo;
 
     align-items: center;
 
@@ -192,7 +194,7 @@ a#search_logo {
 
     background-size: contain;
 
-    height: 59px;
+    height: 59px important;
 
 }
 
