@@ -197,6 +197,10 @@ a#search_logo {
     height: 59px important;
 
 }
+  
+  .dialogerror ｛
+  display: none;
+  }
 
   @media (prefers-color-scheme: dark) {
     .theme-auto {
