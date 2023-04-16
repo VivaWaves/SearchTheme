@@ -1,19 +1,18 @@
 /* ==UserStyle==
 @name           SearXNG Catppuccin
-@namespace      github.com/catppuccin/searxng
-@homepageURL    https://github.com/catppuccin/searxng
+@namespace      github.com/vivawaves/searchtheme
+@homepageURL    https://github.com/vivawaves/searchtheme
 @version        0.2.1
 @description    Soothing pastel theme for SearXNG
 @author         Catppuccin
-@updateURL      https://github.com/catppuccin/searxng/raw/main/catppuccin.user.css
+@updateURL      https://github.com/vivawaves/searchtheme/raw/main/catppuccin.user.css
 @preprocessor   stylus
 @var select lighttheme "Light Variant" ["Latte*", "Frappe", "Macchiato", "Mocha"]
 @var select darktheme "Dark Variant" ["Latte", "Frappe", "Macchiato", "Mocha*"]
 @var checkbox additions "Additional Tweaks" 0
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://search.vivawaves.com/"),
-url-prefix("https://v/") {
+@-moz-document url-prefix("https://search.vivawaves.com/") {
 
   colourscheme(flavour) {
     if (flavour=="Latte") {
@@ -154,10 +153,10 @@ url-prefix("https://v/") {
     if (lighttheme=="Mocha")     { colourscheme(Mocha) }
   }
   
-   div#search_header {}
-.index .title {
+  
+   .index .title {
 
-    background: url(https://i.postimg.cc/SN7558Bh/vivawaves.png) center center no-repeat !important;
+    background: url(https://elidomingues.nyc3.cdn.digitaloceanspaces.com/project_20230415_0759596-01.png) center center no-repeat !important;
 
     background-size: contain !important;
 
@@ -171,8 +170,12 @@ url-prefix("https://v/") {
 
 	
 } 
+
+.dialog-error {display:none;}
+    
+    #answers {font-size:25px; background: #FFF; margin: 20px;}
   
-  a#search_logo svg {display:none;}
+  a#search_logo svg g {display:none;}
 
 a#search_logo {
 
@@ -190,17 +193,14 @@ a#search_logo {
 
     position: absolute;
 
-    background: url(https://i.postimg.cc/SN7558Bh/vivawaves.png) center center no-repeat;
+    background: url(https://i.postimg.cc/QdbLknK1/project-20230415-1043437-01.png) left center no-repeat;
 
-    background-size: contain;
+    background-size: 40px;
 
     height: 59px important;
+    padding: 0px 0px 8px 15px;
 
 }
-  
-  .dialog-error ｛
-  display: none;
-  }
 
   @media (prefers-color-scheme: dark) {
     .theme-auto {
